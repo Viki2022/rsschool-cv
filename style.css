@@ -1,0 +1,54 @@
+html {
+	scroll-behavior: smooth; 
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+    background-color: #eeeeee;
+}
+
+.header {
+    margin-bottom: 150px;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(31, 20, 16);
+    height: 100px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 75px;
+	font-size: 20px;
+}
+
+.nav {
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+    list-style: none;
+	background-color: lightslategrey;
+    padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.nav-item {
+    display: flex;
+    list-style: none;
+    margin-right:40px;
+}
+
+.nav-item-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item-link:hover {
+    text-decoration: none;
+    color: black;
+    background:#a2b6c7;
+}
