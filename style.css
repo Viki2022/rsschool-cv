@@ -52,3 +52,113 @@ header {
     color: black;
     background:#a2b6c7;
 }
+
+main {
+    display: flex;
+    padding: 24px;
+}
+
+.col-left {
+    width: 360px;
+    position: relative;
+    background-color: #a2b6c7;
+    padding: 100px 32px 50px;
+    margin-right: 32px;
+    box-sizing: border-box;
+}
+
+.avatar {
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    border-bottom: 2px solid;
+    margin-top: 50px;
+}
+
+ul.icon {
+    list-style-type: none;
+}
+
+.phone {
+    list-style-image: url(assets/icons/phone.png);
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.email {
+    list-style-image: url(assets/icons/email.png);
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.github {
+    list-style-image: url(assets/icons/github.png);
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.discord {
+    list-style-image: url(assets/icons/discord.png);
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+a:hover {
+    color: white;
+    background:#a2b6c7;
+}
+
+a {
+    color: black;
+}
+
+.about {
+    border-bottom: 2px solid;
+    margin-top: 0;
+}
+
+.code {
+    background-color: gainsboro;
+    text-align: left;
+    padding: 0 16px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: black;
+    background-color: #a2b6c7;
+}
+
+.time {
+    font-size: 20px;
+	font-weight: bold;
+}
+
+.img-link {
+    opacity: 1;
+}
+
+.img-link:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .col-left {
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+}
+
